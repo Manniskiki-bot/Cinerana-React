@@ -1,0 +1,76 @@
+  [
+  {
+    "name": "Purple Hearts",
+    "image": "./purplehearts.jpeg",
+    "year": "2022",
+    "category1": "Korean",
+    "category2": "Romance"
+  },
+  {
+    "name": "Nevertheless",
+    "image": "./nevertheless.png",
+    "year": "2022",
+    "category1": "Korean",
+    "category2": "Romance",
+    "category3": "Coming-of-age"
+  },
+  {
+    "name": "Encanto",
+    "image": "./encanto.jpg",
+    "year": "2021",
+    "category1": "Family",
+    "category2": "Animation",
+    "category3": "Fantasy",
+    "category4": "Comedy"
+  },
+  {
+    "name": "Never Have I ever",
+    "image": "./neverhaveiever.jpeg",
+    "year": "2020",
+    "category1": "Teen",
+    "category2": "Romance",
+    "category3": "Drama"
+  },
+  {
+    "name": "Moesha",
+    "image": "./moesha.jpeg",
+    "year": "1996",
+    "category1": "Korean",
+    "category2": "Romance"
+  },
+  {
+    "name": "365 days",
+    "image": "./365days.jpeg",
+    "year": "2020",
+    "category1": "Korean",
+    "category2": "Romance"
+  },
+  {
+    "name": "Squid Game",
+    "image": "./squidgame.jpg",
+    "year": "2021",
+    "category1": "Korean",
+    "category2": "Romance"
+  },
+  {
+    "name": "Never Have I ever",
+    "image": "./neverhaveiever.jpeg",
+    "year": "2020",
+    "category1": "Teen",
+    "category2": "Romance"
+  },
+  {
+    "name": "Barbie",
+    "image": "./barbie.jpg",
+    "year": "2023",
+    "category1": "Korean",
+    "category2": "Romance"
+  },
+  {
+    "name": "Century girl",
+    "image": "./centurygirl.jpg",
+    "year": "2022",
+    "category1": "Korean",
+    "category2": "Romance"
+  }
+]

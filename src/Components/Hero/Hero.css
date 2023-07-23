@@ -1,0 +1,65 @@
+.r-container {
+    gap: 6rem;
+}
+.btn {
+    padding: 2px 5px;
+    margin-right: 4px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+.text {
+    color: white;
+}
+.text h1 {
+    font-size: 2.5rem;
+}
+.text h1 span {
+    font-weight: 100;
+}
+.des {
+    gap: 2rem;
+    color: #429EBD;
+}
+.des a {
+    color: #429EBD;
+}
+.des1 {
+    gap: 2rem;
+}
+.icon {
+    align-items: center;
+    width: 10px;
+    margin-right: 2px;
+}
+.bullet {
+    width: 5px;
+    align-items: center;
+}
+.side-img {
+    width: 300px;
+    border-radius: 10px;
+    transition: all ease-in-out 9ms;
+}
+.side-img:hover {
+    box-shadow: 0 0 10px #053F5C;
+    transform: scale(0.9);
+}
+
+@media (max-width: 480px) {
+    .text h1 {
+        font-size: 1.2rem;
+    }
+    .des a, .des1 span {
+        font-size: 0.6rem;
+    }
+    .icon {
+        font-size: 0.4rem;
+    }
+
+}
+@media (max-width: 358px) {
+    .des a, .des1 span {
+        font-size: 0.4rem;
+    }
+}

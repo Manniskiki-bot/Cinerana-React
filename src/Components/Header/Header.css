@@ -1,0 +1,51 @@
+.h-container {
+    justify-content: space-between;
+}
+.nav {
+    gap: 2rem;
+}
+.h-menu a:not(:last-child):hover {
+    color: #429EBD;
+}
+.menu{
+    cursor: pointer;
+    color: #F27F0C;
+    font-size: 1.8rem;
+    visibility: hidden;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        visibility: visible;
+    }
+    .nav {
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease;
+        background: #000;
+        transform: translateY(-100vh);
+        flex-direction: column;
+        opacity: 0.9;
+        z-index: 3;
+    }
+     
+    .responsive_nav {
+        transform: none;
+    }
+    .closeBtn {
+        position: absolute;
+        top: 5%;
+        left: 85%;
+        font-size: 2.2rem;
+        color: white;
+    }
+    .menu-btn {
+        margin-left: 12px;
+    }
+}

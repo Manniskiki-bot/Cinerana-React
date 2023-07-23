@@ -1,0 +1,28 @@
+.f-container {
+    gap: 8rem;
+    background-image: url(/bgimage.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.additional {
+    margin-top: 2.2rem;
+}
+.additional>:last-child{
+    margin-top: 1rem;
+}
+.links {
+    padding-top: 1rem;
+}
+.links a {
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+}
+ 
+@media (max-width: 474px) {
+    .f-container {
+        gap: 2rem;
+        font-size: 0.6rem;
+    }
+}

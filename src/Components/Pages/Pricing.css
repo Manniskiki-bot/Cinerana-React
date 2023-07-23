@@ -1,0 +1,150 @@
+.p-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+.p-container {
+    display: flex;
+    flex-direction: row; /* Change to column when max-width is 76px */
+    align-items: left;
+    gap: 2rem;
+  }
+.LeftSide {
+    
+    margin-top: 10px;
+}
+.RightSide {
+    z-index: 1;
+}
+.box {
+    position: relative;
+    max-width: 290px;
+    height: 450px;
+    border-radius: 10px;
+    transition: height 0.3s ease;
+    background-color: white;
+    z-index: 2;
+}
+.box-2 {
+    
+    box-shadow: 
+    4px 4px 8px rgba(0, 0, 0, 0.2), /* Raised effect (top-left) */
+    -4px -4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.box img {
+    width: 290.5px;
+    border-radius: 10px;
+    height: 85%;
+}
+.textContent {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.textContent>h1 {
+    font-size: 3rem;
+    margin-left: 50px;
+}
+.textContent h1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+.text1 h1::after {
+    background-image: linear-gradient(to right top, #fa7268, 
+    #ef5f67, #e34c67, #d53867, #c62368);
+}
+.text2 h1::after {
+    background-image: linear-gradient(to right top, #764ba2, 
+    #7657b4, #7364c6, #6e71d8, #667eea);
+}
+.text3 h1::after {
+    background-image: linear-gradient(to right top, #2e3192, 
+    #0068c7, #009ce8, #00cff9, #1bffff);
+}
+.col {
+    margin-top: 20px;
+}
+.col img{
+    width: 16px;
+    margin-right: 10px;
+}
+hr {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 120%;
+    background-color: bisque;
+}
+.box button {
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 34px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+.box-1 h1 {
+    background: #FA7268;
+    background: linear-gradient(to top right, #FA7268 22%, #D53867 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box-1 button {
+    background-image: linear-gradient(to right top, #fa7268, 
+    #ef5f67, #e34c67, #d53867, #c62368);
+}
+.box-2 h1 {
+    background: #764BA2;
+    background: linear-gradient(to top right, #764BA2 22%, #6e71d8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.box-2 button {
+    background-image: linear-gradient(to right top, #764ba2, 
+    #7657b4, #7364c6, #6e71d8, #667eea);
+    margin-top: 40px;
+}
+.box-3 h1 {
+    background: #2E3192;
+    background: linear-gradient(to top right, #2E3192 22%, #00cff9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.box-3 button {
+    background-image: linear-gradient(to right top, #2e3192, 
+    #0068c7, #009ce8, #00cff9, #1bffff);
+}
+.expanded {
+    height: 500px;
+    box-shadow: 
+    4px 4px 8px rgba(0, 0, 0, 0.2), /* Raised effect (top-left) */
+    -4px -4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+.expandedButton button {
+    margin-top: 40px;
+}
+
+
+@media (max-width: 768px) {
+    .p-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

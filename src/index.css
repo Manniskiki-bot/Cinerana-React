@@ -1,0 +1,101 @@
+:root {
+  --primary: #429EBD;
+  --light-orange: #F7AD19;
+  --blue: #053F5C;
+  --orange: #F27F0C;
+  --white: #FBFCF8;
+}
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.button {
+  color: white;
+  background-color: var(--primary);
+  border-radius: 25px;
+  padding: 8px 15px;
+  border: none;
+  transition: all ease-in-out 6ms;
+}
+.button:hover {
+  transform: scale(1.1);
+}
+.btn1 {
+  background-color: var(--orange);
+}
+.btn2 {
+  background-color: var(--blue);
+}
+.btn3 {
+  background-color: var(--light-orange);
+}
+.paddings {
+  padding: 2rem;
+}
+.marginTop {
+  margin-top: 1rem;
+}
+.header {
+  background-image: url(/bgimage.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.innerWidth {
+  width: 100%;
+}
+.primaryText {
+  color: var(--blue);
+}
+.secondaryText {
+  color: var(--orange);
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  row-gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flexColCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexColStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flexColEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+}
+

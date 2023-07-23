@@ -1,0 +1,46 @@
+.l-card {
+    position: relative;
+}
+.l-card img {
+    max-width: 300px;
+    border-radius: 15px;
+}
+.span {
+    position: absolute;
+    left: 7rem;
+    margin-top: -11px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: 0.4rem 0.6rem;
+    opacity: 0.8;
+    font-size: 0.8rem;
+}
+h3 {
+    color: white;
+    font-size: 1.7rem;
+}
+.movieContent {
+    position: absolute;
+    top: 9%;
+    left: 7%;
+    visibility: hidden;
+}
+.genreTags {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+.genreTags a {
+    padding: 0.2rem 0.4rem;
+    border: 1px solid #36454F;
+    border-radius: 15px;
+    background-color: #36454F;
+    font-size: 0.8rem;
+}
+.l-card:hover .movieContent {
+    visibility: visible;
+}
+ 
+
